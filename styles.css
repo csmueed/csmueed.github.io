@@ -1,4 +1,75 @@
-.center {
+* , ::before , ::after {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: pink;
+}
+.heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    background-color: yellow;
+    /* width: fit-content;
+    height: fit-content; */
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px 10px 50px 10px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
+    width: auto;
+    height: auto;
+}
+.intro {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding-bottom: 50px;
+}
+.sub-heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(243, 242, 247);
+    background-color: rgb(3, 2, 59);
+    /* width: fit-content;
+    height: fit-content; */
+    padding: 10px;
+    border: 5px solid rgb(201, 198, 198);
+    margin: 10px 10px 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.link {
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.center
+    {
+    font-family: sans-serif;
+    color: rgb(37, 39, 0);
+    display: flex;
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+}
+a:hover {
+    background-color: red;
+    color: white;
+}
+a:visited {
+    background-color: rgb(255, 255, 255);
+    color: rgb(6, 2, 254);
 }
