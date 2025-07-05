@@ -1,4 +1,4 @@
-* , ::before , ::after {
+* {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
@@ -46,15 +46,18 @@ body {
     height: auto;
     margin-left: 400px;
     margin-right: 400px;
+    gap: 50px;
 }
 .link {
     font-family: sans-serif;
     color: white;
     display: flex;
+    flex-direction: column;
     /* display: block; */
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+    gap: 15px;
 }
 .center
     {
@@ -65,11 +68,19 @@ body {
     justify-content: center;
     align-items: center;
 }
+body {
+    width: 100%;
+}
+a {
+    color: #ff0059;
+    font-style: italic; 
+}
+ul {
+    list-style-type: none;
+}
 a:hover {
-    background-color: red;
-    color: white;
+    color: chocolate;
 }
 a:visited {
-    background-color: rgb(255, 255, 255);
-    color: rgb(6, 2, 254);
+    color: blue;
 }
