@@ -29,6 +29,8 @@ body {
     width: auto;
     height: auto;
     padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .sub-heading {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
