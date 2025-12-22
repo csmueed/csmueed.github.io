@@ -12,8 +12,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 99vw;
-    height: 99vh;
+    width: 100vw;
+    height: 100vh;
 }
 .heading {
     font-family: Arial, Helvetica, sans-serif;
@@ -45,5 +45,112 @@ button {
 }
 .box {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
+}
+
+
+/* Tablet devices (landscape) */
+@media screen and (max-width: 1024px) {
+    .heading {
+        font-size: 4rem;
+    }
+    .content {
+        font-size: 1.1rem;
+        padding: 0 2rem;
+    }
+    input {
+        width: 35vw;
+    }
+    button {
+        width: 15vw;
+    }
+}
+
+/* Tablet devices (portrait) */
+@media screen and (max-width: 768px) {
+    .heading {
+        font-size: 3rem;
+    }
+    .content {
+        font-size: 1rem;
+        padding: 0 1.5rem;
+        text-align: center;
+    }
+    input {
+        width: 45vw;
+        height: 50px;
+    }
+    button {
+        width: 20vw;
+        height: 50px;
+    }
+}
+
+/* Mobile devices (landscape) */
+@media screen and (max-width: 640px) {
+    .heading {
+        font-size: 2.5rem;
+    }
+    .content {
+        font-size: 0.95rem;
+        margin-bottom: 2rem;
+    }
+    .box {
+        flex-direction: column;
+        width: 80%;
+    }
+    input {
+        width: 100%;
+        height: 48px;
+    }
+    button {
+        width: 100%;
+        height: 48px;
+    }
+}
+
+/* Mobile devices (portrait) */
+@media screen and (max-width: 480px) {
+    .heading {
+        font-size: 2rem;
+        padding: 0.5em;
+        text-align: center;
+    }
+    .content {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .box {
+        width: 90%;
+    }
+    input {
+        font-size: 0.95rem;
+        padding: 0.75rem;
+        height: 45px;
+    }
+    button {
+        font-size: 0.95rem;
+        height: 45px;
+    }
+}
+
+/* Small mobile devices */
+@media screen and (max-width: 360px) {
+    .heading {
+        font-size: 1.75rem;
+    }
+    .content {
+        font-size: 0.85rem;
+    }
+    input {
+        font-size: 0.9rem;
+        height: 42px;
+    }
+    button {
+        font-size: 0.9rem;
+        height: 42px;
+    }
 }
